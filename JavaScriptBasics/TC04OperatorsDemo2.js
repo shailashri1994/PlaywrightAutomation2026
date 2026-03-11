@@ -32,8 +32,6 @@ if(finaladdress ==="Kathmandu1 Street View 12") {
 } else {
     console.log("Address is incorrect")
 }
-
-
 // let add = 10
 // let add1 = "10000"
 // let add3 = 100
@@ -46,11 +44,13 @@ console.log(am < pm) //FALSE
 console.log(am >= pm) //TRUE
 console.log(am <= pm) //TRUE
 const age = 10
+
 if(age >= 18) {
     console.log("You are eligible to vote")
 } else {
     console.log("You are not eligible to vote")
 }
+
 //!=
 console.log(am!=pm) //FALSE
 console.log(am!==pm) //FALSE
@@ -66,13 +66,13 @@ if(am != pm) {
     console.log("AM and PM are equal")
 }
 
+
 let a1= 10
-let b1 ="10"
+let b1 =10
 if(a1===b1)
 {
     console.log("This is true")
 }
-
 //Logical Operator
 //AND (&&) - Returns true if both operands are true
 //OR (||) - Returns true if at least one of the operands is true
